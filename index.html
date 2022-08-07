@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Bootstrap3 Template </title>
+        <meta charset="utf-8">
+        <meta name="description" content="This is Bootstrap3 Template">
+        <!-- boostrap file -->
+        <link rel="stylesheet" href="css/vendors/bootstrap.css">
+         <!-- font-awesome file -->
+        <link rel="stylesheet" href="css/vendors/font-awesome.min.css">
+        <!-- Style file -->
+        <link rel="stylesheet" href="css/style.css">
+         <!-- carousel library -->
+        <link rel="stylesheet" href="css/vendors/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/vendors/owl.theme.default.min.css">
+    </head>
+    <body>
+        <!-- ************************************* navbar section ************************************* -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" data-target="#ourNavbar" role="navigation">
+            <div class="container">
+                <!-- container-fluid: take full width of page , container: take 1170px from page width -->
+                <div class="navbar-header"> 
+                    <!-- في حالة الموبيل navbar الزرار اللي هيفتح القائمة -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ourNavbar">
+                        <!-- بتاع الحاجة اللي عايز افتحها لما اضغط علي الزرار id بعطيها ال  data-target ال -->
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                    <!-- ////////////////// brand name : website name  ////////////////// -->
+                    <a href="#" class="navbar-brand  upperCase">ax<span class="brandSpan">it</span></a>
+                </div>
+                <!-- ******************** collection of links ********************** --> 
+                <div class="collapse navbar-collapse" id="ourNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="main_color capitalize" data-class="header"> <a href="#">features</a>   </li>
+                        <li class="capitalize" data-class="tabs"> <a href="#">about</a>   </li>
+                        <li class="capitalize" data-class="priceOption"> <a href="#">pricing</a> </li>
+                        <li class="capitalize" data-class="test"> <a href="#">reviews</a> </li>
+                        <li class="capitalize" data-class="contactUs"> <a href="#">contact</a> </li>
+                    </ul>                                                                   
+                </div>
+            </div>
+        </nav>
+        <!-- ************************************* header section ************************************* -->
+        <div class="header  section_padding">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row  centering-vh">
+                    <!-- ******************* left part : header info ********************* -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="headeLeftPartH1  upperCase">ax<span class="main_color">it</span></h1>
+                        <p class="headeLeftPartPara  upperCase">modern axure template for beautiful prototypes</p>
+                        <span class="line_under_head  main_bk"></span>
+                        <p class="headeLeftPartPara2">
+                            Brackets has some unique features like Quick Edit, Live Preview and others that you may not find in other editors. Brackets has some unique features like Quick Edit Live Preview
+                        </p>
+                        <button class="main_btn main-bk capitalize">download</button>
+                    </div>
+                    <!-- ******************* right part : header form ********************* -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="headForm block_center">
+                            <form >
+                                <h4 class="formH2 capitalize">try your <span class="main_color">free</span> trial today</h4>
+                                <input type="text"     class="input1"       id="nameInputId"  placeholder="name">
+                                <input type="email"    class="input2"       id="emailInputId" placeholder="email">
+                                <input type="password" class="input3Pass"   id="passInputId"  placeholder="password">
+                                <input type="submit"   class="main_bk capitalize"id="getStartBtnId"value="get started">
+                            </form>
+                        </div>
+                    </div>
+                </div>                                    
+            </div>
+        </div>
+        <!-- ************************************* socialMedia section *********************************** -->
+        <div class="socialMedia">
+            <div class="container">
+                <div class="row">
+                    <!-- ============= left part : socialMedia info ============== -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="socialInfo">
+                            <h4 class="socialInfoH4 capitalize">social media</h4>
+                            <p class="socialInfoPara">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor inciddunt.
+                            </p>    
+                        </div>
+                    </div>
+                    <!-- ============= right part : socialMedia icons ============== -->
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <div class="socialIcons">
+                            <ul>
+                                <li> <a href="#"> <i class="fa fa-facebook"></i>    </a> </li>
+                                <li> <a href="#"> <i class="fa fa-twitter"></i>     </a> </li>
+                                <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-pinterest"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-instagram"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-stumbleupon"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-rss"></i>        </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ****************************************** tabs section ****************************************** -->
+        <div class="tabs   section_padding  section_center_xs">
+            <div class="container">
+                <div class="row">
+                    <!-- ================= tabs column ================= -->
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                        <ul class="tabsPart">
+                            <li data-class="tab1" class="tab main_bk upperCase" id="tab1Id"> tab 1 </li>
+                            <li data-class="tab2" class="tab upperCase" id="tab2Id"> tab 2 </li>
+                            <li data-class="tab3" class="tab upperCase" id="tab3Id"> tab 3 </li>
+                        </ul>
+                    </div>
+                    <!-- ================= tabs info ================= -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="tabsInfo">
+                            <!-- //////////// tab 1 info //////////// -->
+                            <div class="tabInfo tab1">
+                                <h4 class="tabInfoH4">Tab 1 with soft transitioning effect.</h4>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit inciddunt Lorem ipsum dolor sit amet,consectetur consectetur adipisicing eilt .
+                                </p>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum consectetur adipisicing eilt.
+                                </p>
+                                <button class="main_btn main_bk">download</button>
+                            </div>
+                            <!-- //////////// tab 2 info //////////// -->
+                            <div class="tabInfo tab2">
+                                <h4 class="tabInfoH4">Tab 2 with soft transitioning effect.</h4>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit inciddunt Lorem ipsum dolor sit amet,consectetur consectetur adipisicing eilt .
+                                </p>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum consectetur adipisicing eilt.
+                                </p>
+                                <button class="main_btn main_bk">download</button>
+                            </div> 
+                            <!-- //////////// tab 3 info //////////// -->
+                            <div class="tabInfo tab3">
+                                <h4 class="tabInfoH4">Tab 3 with soft transitioning effect.</h4>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit inciddunt Lorem ipsum dolor sit amet,consectetur consectetur adipisicing eilt .
+                                </p>
+                                <p class="tabInfoPara">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum consectetur adipisicing eilt.
+                                </p>
+                                <button class="main_btn main_bk">download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ================= tabs image ================= -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="tabsImg">
+                            <div class="tab1">  <img src="images/tab1.jpeg"   alt=""></div>
+                            <div class="tab2">  <img src="images/tab2.jpg"    alt=""></div>
+                            <div class="tab3">  <img src="images/tab3.jpeg"   alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************* sublist section ************************************* -->
+        <div class="sublist  section_center_xs  section_padding">
+            <div class="container">
+                <div class="row">
+                    <!-- ============== left part : sublist image ============== -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="sublistImg">
+                            <img src="images/sublistImg.jpeg" class="img_center_xs" alt="">
+                        </div>
+                    </div>
+                    <!-- ============== right part : sublist info ============== -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="sublistInfo">
+                            <h4 class="sublistInfoH4 capitalize">Sub list section</h4>
+                            <div class="line_under_head main_bk line_center_xs"></div>
+                            <p class="sublistInfoPara">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum consectetur adipisicing eilt consectetur adipisicing eilt, sed do eiusmod consectetur adipisicing eilt eiusmod ipsum .
+                            </p>
+                            <!-- ============ row 1 ============= -->
+                            <div class="sublistInfoRow">
+                                <div class="row">
+                                    <div class="col-lg-2   col-md-2   col-sm-2 col-xs-12">
+                                        <i class="fa fa-cloud-download"></i>
+                                    </div>
+                                    <div class="col-lg-10  col-md-10  col-sm-10 col-xs-12">
+                                        <div class="sublistInfoRowInfo">
+                                            <h4 class="subInfoRowH4 capitalize">download</h4>
+                                            <p class="subInfoRowPara">                                
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing eilt sed eiusmod tempor Lorem ipsum consectetur adipisicing eilt .
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ============ row 2 ============= -->
+                            <div class="sublistInfoRow">
+                                <div class="row">
+                                    <div class="col-lg-2  col-md-2  col-sm-2  col-xs-12">
+                                        <i class="fa fa-cloud-upload"></i>
+                                    </div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                        <div class="sublistInfoRowInfo">
+                                            <h4 class="subInfoRowH4 capitalize">upload</h4>
+                                            <p class="subInfoRowPara">                                
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum consectetur adipisicing eilt Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed eiusmod tempor Lorem .
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************* standard section ************************************* -->
+        <div class="standard   section_padding  section_center_xs">
+            <div class="container">
+                <div class="row">
+                    <!-- ============== left part : sublist image ============== -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="standardInfo">
+                            <h4 class="standardInfoH4 capitalize">standard picture section</h4>
+                            <div class="line_under_head main_bk line_center_xs"></div>
+                            <p class="standardInfoPara1">
+                                Lorem ipsum dolor sit amet eilt eiusmod ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt, sed do eiusmod consectetur adipisicing consectetur adipisicing eiusmod adipisicing ipsum consectetur adipisicing eilt adipisicing adipisicing .
+                            </p> 
+                            <p class="standardInfoPara2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing eilt, sed do eiusmod tempor Lorem ipsum adipisicing .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ============== right part : sublist info ============== -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="standardImg">
+                            <img src="images/standardImg.jpeg" class="img_center_xs" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************* whyAwesome section ************************************* -->
+        <div class="whyAwesome  section_padding">
+            <div class="container">
+                <div class="row">
+                    <!-- ============ whyAwesome header ============ -->
+                    <h3 class="whyAwesomeH3 upperCase">why this is awesome</h3>
+                    <div class="line_under_head main_bk block_center"></div>
+                    <p class="whyAwesomePara">Lorem ipsum dolor sit amet, consectetur adipisicing eilt.</p>
+                    <!-- ============ whyAwesome body ============ -->
+                    <div class="whyAwesomeBody">
+                        <!-- ///// awesome 1 ///// -->
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="whyAwesomeBox">
+                                <i class="fa fa-lightbulb-o"></i>
+                                <h4 class="whyAwesomeBoxH4 capitalize">thoughtful design</h4>
+                                <p class="whyAwesomeBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ///// awesome 2 ///// -->
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="whyAwesomeBox">
+                                <i class="fa fa-keyboard-o"></i>
+                                <h4 class="whyAwesomeBoxH4">well crafted</h4>
+                                <p class="whyAwesomeBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .
+                                </p>
+                            </div>
+                        </div>
+                        <!-- ///// awesome 3 ///// -->
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="whyAwesomeBox">
+                                <i class="fa fa-flash"></i>
+                                <h4 class="whyAwesomeBoxH4">easy to customize</h4>
+                                <p class="whyAwesomeBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************* priceOption section ************************************* -->
+        <div class="priceOption section_padding">
+            <div class="container">
+                <div class="row">
+                    <!-- ============ pricing header ============ -->
+                    <h3 class="priceOptionH3 upperCase">pricing options</h3>
+                    <div class="priceOptionLine"></div>
+                    <p class="priceOptionPara">Lorem ipsum dolor sit amet, consectetur adipisicing eilt.</p>
+                    <!-- ============ whyAwesome body ============ -->
+                    <div class="priceOptionBody">
+                        <!-- ////////////// priceTable 1 ////////////// -->
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="priceTable  priceTable1">
+                                <!-- ===== pricing table box header ===== -->
+                                <div class="priceTableHead">
+                                    <h4 class="tableHeadH4 capitalize">basic</h4>
+                                </div>
+                                <!-- ===== pricing table body ===== -->
+                                <div class="priceTableBody">
+                                    <p class="priceTableBodyPara1"><span class="currency">$</span>0</p>
+                                    <p class="priceTableBodyPara2 capitalize">free for life</p>
+                                </div>
+                                <!-- ===== pricing table footer ===== -->
+                                <ul class="priceTableFooter">
+                                    <li class="upperCase">1 gb of space</li>
+                                    <li class="upperCase">10 gb of bandwidth</li>
+                                    <li class="upperCase">3 webistes</li>
+                                    <li class="upperCase">basic customization</li>
+                                    <li class="upperCase">wordpress integration</li>
+                                    <li class="upperCase">email support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ////////////// priceTable 2 ////////////// -->
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="priceTable  priceTable2">
+                                <!-- ===== pricing table header ===== -->
+                                <div class="priceTableHead">
+                                    <h4 class="tableHeadH4 capitalize">professional</h4>
+                                </div>
+                                <!-- ===== pricing table body ===== -->
+                                <div class="priceTableBody">
+                                    <p class="priceTableBodyPara1"> <span class="currency">$</span>19</p>
+                                    <p class="priceTableBodyPara2 capitalize">monthly payment</p>
+                                </div>
+                                <p class="priceTableBodyPara3 main_bk upperCase">our most popular</p> 
+                                <!-- ===== pricing table footer ===== -->
+                                <ul class="priceTableFooter">
+                                    <li class="upperCase">5 gb of space</li>
+                                    <li class="upperCase">50 gb of bandwidth</li>
+                                    <li class="upperCase">12 websites</li>
+                                    <li class="upperCase">advance customization</li>
+                                    <li class="upperCase">wordpress integration</li>
+                                    <li class="upperCase">email support</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ////////////// priceTable 3 ////////////// -->
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="priceTable  priceTable3">
+                                <!-- ===== pricing table header ===== -->
+                                <div class="priceTableHead">
+                                    <h4 class="tableHeadH4 capitalize">enterprise</h4>
+                                </div>
+                                <!-- ===== pricing table body ===== -->
+                                <div class="priceTableBody">
+                                    <p class="priceTableBodyPara1"><span class="currency">$</span>70</p>
+                                    <p class="priceTableBodyPara2 capitalize">monthly payment</p>
+                                </div>
+                                <!-- ===== pricing table footer ===== -->
+                                <ul class="priceTableFooter">
+                                    <li class="upperCase">unlimited space</li>
+                                    <li class="upperCase">ulimited bandwidth</li>
+                                    <li class="upperCase">100 websites</li>
+                                    <li class="upperCase">advance customization</li>
+                                    <li class="upperCase">wordpress integration</li>
+                                    <li class="upperCase">24/7 customer support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ************************************* testimonials section ************************************* -->
+         <div class="test   section_padding">
+            <div class="container">
+                <div class="row">
+                    <!-- ============ testimonials header ============ -->
+                    <h3 class="testH3 upperCase">what our customers are saying</h3>
+                    <div class="block_center main_bk line_under_head"></div>
+                    <p class="testPara">Lorem ipsum dolor sit amet, consectetur adipisicing eilt.</p>
+                    <!-- ============ testimonials body ============ -->
+                    <div class="owl-carousel owl-theme">
+                        <!-- ************* item 1 ************* -->
+                        <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team1.jpg"  alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">peter john</span>
+                                        <span class="personJob">CEO &amp; founder</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 2 ************* -->
+                         <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">frank martin</span>
+                                        <span class="personJob">fullstack developer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 3 ************* -->
+                        <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">osama ramy</span>
+                                        <span class="personJob">software engineer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 4 ************* -->
+                        <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team4.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">kariem ahmed</span>
+                                        <span class="personJob">android developer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 5 ************* -->
+                         <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team5.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">sayed samir</span>
+                                        <span class="personJob">graphics designer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 6 ************* -->
+                        <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team6.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">waled tamer</span>
+                                        <span class="personJob">civil engineer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 7 ************* -->
+                         <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team7.png"  alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">emad youssef</span>
+                                        <span class="personJob">system admin</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <!-- ************* item 8 ************* -->
+                        <div class="item">
+                            <!-- row1 : team desc -->
+                            <div class="teamDesc">
+                                 <p class="teamBoxPara">
+                                    Lorem ipsum dolor sit amet eilt ipsum eilt, sed do eiusmod tempor Lorem ipsum adipisicing eilt consectetur adipisicing eilt .Lorem ipsum dolor sit amet eilt ipsum adipisicing consectetur eilt, sed do eiusmod tempor Lorem ipsum .
+                                 </p>
+                            </div> 
+                            <!-- row2 : team image -->
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                    <div class="teamImg">
+                                        <img src="images/team/team8.jpg"  alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                    <div class="teamPersonInfo">
+                                        <span class="personName">hesham amr</span>
+                                        <span class="personJob">IT engineer</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!-- ************************************* stylish section ************************************* -->
+        <div class="stylish text_center section_padding">
+            <div class="overlay section_padding">
+                <div class="container">
+                    <div class="row">
+                        <h3 class="stylishH3 upperCase">stylish axure design</h3>
+                        <div class="line_under_head main_bk block_center"></div>
+                        <p class="stylishPara">Lorem ipsum dolor sit amet, consectetur adipisicing eilt.</p>
+                        <button class="main_btn capitalize">download</button>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- ************************************* contactUs section ************************************* -->
+         <div class="contactUs  section_padding  upperCase">
+            <div class="container">
+                <!-- ============ contactUs header ============ -->
+                <h3 class="contactUsH3">contact Us</h3>
+                <div class="contactUsLine"></div>
+                <p class="contactUsPara">Lorem ipsum dolor sit amet, consectetur adipisicing eilt.</p>
+               <div class="row">
+                    <form>
+                        <!-- *********** form : left part *********** -->
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           <input type="text"  class="form-control input-lg input1"     placeholder="name"    name="inputName">
+                           <input type="email" class="form-control input-lg input2"     placeholder="email"   name="emailName">
+                           <input type="text"  class="form-control input-lg input3Subj" placeholder="subject" name="subjName">
+                       </div>
+                       <!-- *********** form : right part *********** -->
+                       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <textarea class="form-control input-lg" placeholder="message" name="messageName"></textarea>
+                       </div>
+                    </form>
+                </div>
+                <!-- contactUs button -->
+                <button class="main_btn main_bk capitalize">send message</button>                    
+            </div>
+        </div>
+        <!-- ************************************* footer section *********************************** -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                     <!-- ============= left part : footer icons ============== -->
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="footerIcons">
+                            <ul>
+                                <li> <a href="#"> <i class="fa fa-facebook"></i>    </a> </li>
+                                <li> <a href="#"> <i class="fa fa-twitter"></i>     </a> </li>
+                                <li> <a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-pinterest"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-instagram"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-stumbleupon"></i>   </a> </li>
+                                <li> <a href="#"> <i class="fa fa-rss"></i>        </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ============= right part : socialMedia info ============== -->
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="footerInfo">
+                            <p class="footerPara">
+                                &copy; 2015 auxre themes
+                            </p>    
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- jquery library file -->
+        <script src="js/jquery.min.js"></script>
+        <!-- boostrap file -->
+        <script src="js/bootstrap.min.js"></script> 
+        <!-- script file -->
+        <script src="js/js.js"></script>
+         <!-- carousel library -->
+        <script src="js/owl.carousel.min.js"></script>
+    </body>
+</html>
